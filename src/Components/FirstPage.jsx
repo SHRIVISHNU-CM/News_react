@@ -22,9 +22,8 @@ function FirstPage() {
                                 type="text"
                                 value={val}
                                 onChange={e => SetVal(e.target.value)}
-
                                 placeholder="Enter News"
-                                className="input input-bordered w-96 mx-1"
+                                className="input input-bordered md:w-96 mx-1"
                             />
                             <button type="submit" className="btn btn-primary">Go</button>
                         </form>
