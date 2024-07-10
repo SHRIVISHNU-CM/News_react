@@ -9,7 +9,9 @@ export default {
     extend: {
       fontFamily: {
         body: ["Ga Maamli"],
-        playwrite:["Playwrite PE"]
+        playwrite:["Playwrite PE"],
+        cube:["Playwrite CU"],
+        oswald:["Oswald"]
       }
     },
   },
