@@ -18,6 +18,7 @@ export default {
   plugins: [
     daisyui
   ],
-  daisyui: [ 'dracula', 'winter']
+  daisyui:{
+    themes: [ 'dracula', 'winter']}
 }
 
