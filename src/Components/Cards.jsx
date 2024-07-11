@@ -9,7 +9,7 @@ function Cards() {
     const { val } = useContext(SearchContext)
     const [err, SetErr] = useState("")
     useEffect(() => {
-        axios.get(`https://newsapi.org/v2/everything?q=${val}&pageSize=30&apiKey=${import.meta.env.VITE_API_KEY}`)
+        axios.get(`https://newsapi.org/v2/everything?q=${val}&pageSize=30&apiKey=604c0d60c734431986504b5a3df037f5`)
             .then((item) => {
                 setData(item.data.articles)
                 console.log(item.data)
